@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6v-oT-EVs">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6v-oT-EVs">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="209" id="mrz-FB-hgA"/>
                                 </constraints>
@@ -22,8 +22,43 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCk-1T-gRw" customClass="CheckBoxButton">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="KWc-B9-bVb"/>
-                                    <constraint firstAttribute="height" constant="44" id="QZ8-RI-Xq8"/>
+                                    <constraint firstAttribute="height" constant="30" id="fEm-wP-tCi"/>
+                                    <constraint firstAttribute="width" constant="30" id="h0Y-ix-n6W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU9-l9-YzF" customClass="CheckBoxButton">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Zxo-mW-qUA"/>
+                                    <constraint firstAttribute="height" constant="30" id="zhl-h1-V38"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Check All" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Mb-3E-CVZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Dcl-jl-BRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVy-jd-uEW" customClass="CheckBoxButton">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ceP-eK-SSR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
@@ -37,15 +72,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="k6v-oT-EVs" secondAttribute="bottom" constant="207" id="7TL-pE-Lq2"/>
-                            <constraint firstAttribute="centerX" secondItem="qCk-1T-gRw" secondAttribute="centerX" type="user" id="9hB-Ic-ZQ1"/>
-                            <constraint firstAttribute="centerX" secondItem="k6v-oT-EVs" secondAttribute="centerX" type="user" id="aCc-U6-LkT"/>
-                            <constraint firstAttribute="centerY" secondItem="qCk-1T-gRw" secondAttribute="centerY" type="user" id="g79-Mm-ARc"/>
+                            <constraint firstAttribute="centerX" secondItem="nVy-jd-uEW" secondAttribute="centerX" type="user" id="Go8-g2-jsv"/>
+                            <constraint firstAttribute="bottom" secondItem="k6v-oT-EVs" secondAttribute="bottom" constant="225" id="Xos-zt-wEQ"/>
+                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="97" id="ZEp-jr-8JC"/>
+                            <constraint firstItem="nVy-jd-uEW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="191" id="c0v-mv-RH4"/>
+                            <constraint firstItem="qCk-1T-gRw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="101" id="hDg-d6-7Lh"/>
+                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="151" id="kKi-a0-Bvk"/>
+                            <constraint firstItem="qCk-1T-gRw" firstAttribute="top" secondItem="3" secondAttribute="top" constant="90" id="kzP-lR-0Rv"/>
+                            <constraint firstItem="nVy-jd-uEW" firstAttribute="leading" secondItem="eU9-l9-YzF" secondAttribute="leading" type="user" id="raa-dk-o8L"/>
+                            <constraint firstAttribute="centerX" secondItem="k6v-oT-EVs" secondAttribute="centerX" type="user" id="uhQ-V5-4Pd"/>
+                            <constraint firstAttribute="centerX" secondItem="eU9-l9-YzF" secondAttribute="centerX" type="user" id="wfT-FU-4L6"/>
+                            <constraint firstItem="eU9-l9-YzF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="140" id="wp0-hQ-2zG"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="checkBoxButton" destination="qCk-1T-gRw" id="hOm-9v-H1Z"/>
+                        <outlet property="checkBoxAllButton" destination="qCk-1T-gRw" id="2r8-bf-How"/>
+                        <outlet property="checkBoxOneButton" destination="eU9-l9-YzF" id="wKd-VU-3Fg"/>
                         <outlet property="checkBoxStatusLabel" destination="k6v-oT-EVs" id="H33-je-neW"/>
+                        <outlet property="checkBoxTwoButton" destination="nVy-jd-uEW" id="Uva-22-kXi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -63,8 +107,10 @@
         <class className="EWViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EWViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="checkBoxButton" candidateClass="CheckBoxButton"/>
+                <relationship kind="outlet" name="checkBoxAllButton" candidateClass="CheckBoxButton"/>
+                <relationship kind="outlet" name="checkBoxOneButton" candidateClass="CheckBoxButton"/>
                 <relationship kind="outlet" name="checkBoxStatusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="checkBoxTwoButton" candidateClass="CheckBoxButton"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

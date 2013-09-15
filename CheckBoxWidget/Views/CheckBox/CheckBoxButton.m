@@ -48,6 +48,12 @@
     return self;
 }
 
+- (void)setCheckBoxSelection:(BOOL)selected
+{
+    checkBoxSelected = !selected;
+    [self handleCheckBoxSelected];
+}
+
 - (void)handleCheckBoxSelected {
     
     if (checkBoxSelected == 0){
