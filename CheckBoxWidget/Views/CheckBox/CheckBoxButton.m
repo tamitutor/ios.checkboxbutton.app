@@ -10,6 +10,8 @@
 
 @implementation CheckBoxButton
 
+@synthesize checkBoxSelected = _checkBoxSelected;
+
 - (void)baseInit {
     self.editable = NO;
     _delegate = nil;
@@ -50,18 +52,18 @@
 
 - (void)setCheckBoxSelection:(BOOL)selected
 {
-    checkBoxSelected = !selected;
+    _checkBoxSelected = !selected;
     [self handleCheckBoxSelected];
 }
 
 - (void)handleCheckBoxSelected {
     
-    if (checkBoxSelected == 0){
+    if (_checkBoxSelected == 0){
         [self.checkBoxButton setSelected:YES];
-        checkBoxSelected = 1;
+        _checkBoxSelected = 1;
     } else {
         [self.checkBoxButton setSelected:NO];
-        checkBoxSelected = 0;
+        _checkBoxSelected = 0;
     }
 }
 
@@ -78,7 +80,7 @@
     if (!self.editable) return;
     
     [self handleCheckBoxSelected];
-    [self.delegate checkBoxButton:self checkBoxButtonDidChange:checkBoxSelected];
+    [self.delegate checkBoxButton:self checkBoxButtonDidChange:_checkBoxSelected];
 }
 
 @end

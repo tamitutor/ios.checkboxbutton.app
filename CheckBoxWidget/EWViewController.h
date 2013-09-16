@@ -9,13 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "CheckBoxButton.h"
 #define CheckBoxStatusLabelPrefix @"Checkbox ";
-#define CheckBoxAllKey @"ALL";
+#define CheckBoxAllTag 0;
 
 @interface EWViewController : UIViewController <CheckBoxButtonDelegate>
+{
+    NSArray *checkBoxButtonCollection;
+}
+@property (nonatomic, retain) IBOutletCollection(CheckBoxButton) NSArray *checkBoxButtonCollection;
 @property (weak, nonatomic) IBOutlet UILabel *checkBoxStatusLabel;
 @property (weak, nonatomic) IBOutlet CheckBoxButton *checkBoxAllButton;
 @property (assign) NSString *checkBoxLabelString;
-@property (weak, nonatomic) IBOutlet CheckBoxButton *checkBoxOneButton;
-@property (weak, nonatomic) IBOutlet CheckBoxButton *checkBoxTwoButton;
+
+- (IBAction)checkBoxButtonAll:(id)sender;
+- (IBAction)checkBoxButtons:(id)sender;
 
 @end

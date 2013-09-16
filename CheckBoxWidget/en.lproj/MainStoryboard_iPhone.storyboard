@@ -34,7 +34,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU9-l9-YzF" customClass="CheckBoxButton">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU9-l9-YzF" customClass="CheckBoxButton">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Zxo-mW-qUA"/>
                                     <constraint firstAttribute="height" constant="30" id="zhl-h1-V38"/>
@@ -56,7 +56,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVy-jd-uEW" customClass="CheckBoxButton">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVy-jd-uEW" customClass="CheckBoxButton">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ceP-eK-SSR"/>
                                 </constraints>
@@ -87,9 +87,9 @@
                     </view>
                     <connections>
                         <outlet property="checkBoxAllButton" destination="qCk-1T-gRw" id="2r8-bf-How"/>
-                        <outlet property="checkBoxOneButton" destination="eU9-l9-YzF" id="wKd-VU-3Fg"/>
                         <outlet property="checkBoxStatusLabel" destination="k6v-oT-EVs" id="H33-je-neW"/>
-                        <outlet property="checkBoxTwoButton" destination="nVy-jd-uEW" id="Uva-22-kXi"/>
+                        <outletCollection property="checkBoxButtonCollection" destination="eU9-l9-YzF" id="FCh-xx-Pem"/>
+                        <outletCollection property="checkBoxButtonCollection" destination="nVy-jd-uEW" id="PNk-gI-kaI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -107,10 +107,11 @@
         <class className="EWViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EWViewController.h"/>
             <relationships>
+                <relationship kind="action" name="checkBoxButtonAll:"/>
+                <relationship kind="action" name="checkBoxButtons:"/>
                 <relationship kind="outlet" name="checkBoxAllButton" candidateClass="CheckBoxButton"/>
-                <relationship kind="outlet" name="checkBoxOneButton" candidateClass="CheckBoxButton"/>
                 <relationship kind="outlet" name="checkBoxStatusLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="checkBoxTwoButton" candidateClass="CheckBoxButton"/>
+                <relationship kind="outletCollection" name="checkBoxButtonCollection" candidateClass="CheckBoxButton"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

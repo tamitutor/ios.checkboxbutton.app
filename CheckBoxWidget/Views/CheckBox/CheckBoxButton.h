@@ -17,14 +17,13 @@
 
 @interface CheckBoxButton : UIButton
 {
-	BOOL checkBoxSelected;
+	BOOL _checkBoxSelected;
     BOOL _editable;
 }
 @property (strong, nonatomic) IBOutlet UIButton *checkBoxButton;
 @property (assign) BOOL editable;
-@property (assign) id <CheckBoxButtonDelegate> delegate;
-@property (assign) NSString *key;
-- (IBAction)checkBoxButton:(id)sender;
+@property (readonly,nonatomic) BOOL checkBoxSelected;
+@property (assign) id <CheckBoxButtonDelegate> delegate;- (IBAction)checkBoxButton:(id)sender;
 - (void)setCheckBoxSelection:(BOOL)selected;
 
 @end
