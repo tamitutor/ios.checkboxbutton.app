@@ -22,6 +22,7 @@
 }
 @property (strong, nonatomic) IBOutlet UIButton *checkBoxButton;
 @property (assign) BOOL editable;
+@property (weak, nonatomic) NSString *title;
 @property (readonly,nonatomic) BOOL checkBoxSelected;
 @property (assign) id <CheckBoxButtonDelegate> delegate;- (IBAction)checkBoxButton:(id)sender;
 - (void)setCheckBoxSelection:(BOOL)selected;

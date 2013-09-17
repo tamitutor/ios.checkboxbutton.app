@@ -11,7 +11,7 @@
 #define CheckBoxStatusLabelPrefix @"Checkbox ";
 #define CheckBoxAllTag 0;
 
-@interface EWViewController : UIViewController <CheckBoxButtonDelegate>
+@interface MainViewController : UIViewController <CheckBoxButtonDelegate>
 {
     NSArray *checkBoxButtonCollection;
 }
@@ -19,8 +19,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *checkBoxStatusLabel;
 @property (weak, nonatomic) IBOutlet CheckBoxButton *checkBoxAllButton;
 @property (assign) NSString *checkBoxLabelString;
-
-- (IBAction)checkBoxButtonAll:(id)sender;
-- (IBAction)checkBoxButtons:(id)sender;
 
 @end

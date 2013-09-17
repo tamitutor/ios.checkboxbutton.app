@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 twright. All rights reserved.
 //
 
-#import "EWAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation EWAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

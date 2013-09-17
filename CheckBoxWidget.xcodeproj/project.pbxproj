@@ -12,18 +12,40 @@
 		3BBF9C6B17E4D19800D2F6FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBF9C6A17E4D19800D2F6FE /* CoreGraphics.framework */; };
 		3BBF9C7117E4D19800D2F6FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C6F17E4D19800D2F6FE /* InfoPlist.strings */; };
 		3BBF9C7317E4D19800D2F6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7217E4D19800D2F6FE /* main.m */; };
-		3BBF9C7717E4D19800D2F6FE /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7617E4D19800D2F6FE /* EWAppDelegate.m */; };
+		3BBF9C7717E4D19800D2F6FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7617E4D19800D2F6FE /* AppDelegate.m */; };
 		3BBF9C7917E4D19800D2F6FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7817E4D19800D2F6FE /* Default.png */; };
 		3BBF9C7B17E4D19800D2F6FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7A17E4D19800D2F6FE /* Default@2x.png */; };
 		3BBF9C7D17E4D19800D2F6FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7C17E4D19800D2F6FE /* Default-568h@2x.png */; };
 		3BBF9C8017E4D19800D2F6FE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C7E17E4D19800D2F6FE /* MainStoryboard_iPhone.storyboard */; };
 		3BBF9C8317E4D19800D2F6FE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C8117E4D19800D2F6FE /* MainStoryboard_iPad.storyboard */; };
-		3BBF9C8617E4D19800D2F6FE /* EWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9C8517E4D19800D2F6FE /* EWViewController.m */; };
-		3BBF9C9A17E4D49300D2F6FE /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C9717E4D49300D2F6FE /* checkbox-checked.png */; };
-		3BBF9C9B17E4D49300D2F6FE /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C9817E4D49300D2F6FE /* checkbox-pressed.png */; };
-		3BBF9C9C17E4D49300D2F6FE /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9C9917E4D49300D2F6FE /* checkbox.png */; };
+		3BBF9C8617E4D19800D2F6FE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9C8517E4D19800D2F6FE /* MainViewController.m */; };
 		3BBF9CA117E4F92300D2F6FE /* CheckBoxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9CA017E4F92300D2F6FE /* CheckBoxButton.m */; };
 		3BBF9CA317E4F94400D2F6FE /* CheckBoxButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CA217E4F94400D2F6FE /* CheckBoxButton.xib */; };
+		3BBF9CD617E77E2300D2F6FE /* TableViewSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CD517E77E2300D2F6FE /* TableViewSummaryCell.xib */; };
+		3BBF9CD817E77F0700D2F6FE /* TableViewResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CD717E77F0700D2F6FE /* TableViewResultCell.xib */; };
+		3BBF9CDC17E7896F00D2F6FE /* TableViewSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9CDB17E7896F00D2F6FE /* TableViewSummaryCell.m */; };
+		3BBF9CDF17E7898D00D2F6FE /* TableViewResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9CDE17E7898D00D2F6FE /* TableViewResultCell.m */; };
+		3BBF9CE217E78D3200D2F6FE /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9CE117E78D3200D2F6FE /* SearchViewController.m */; };
+		3BBF9CFB17E7FFCD00D2F6FE /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CE717E7FFCD00D2F6FE /* angry_birds_cake.jpg */; };
+		3BBF9CFC17E7FFCD00D2F6FE /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CE817E7FFCD00D2F6FE /* checkbox-checked.png */; };
+		3BBF9CFD17E7FFCD00D2F6FE /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CE917E7FFCD00D2F6FE /* checkbox-pressed.png */; };
+		3BBF9CFE17E7FFCD00D2F6FE /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CEA17E7FFCD00D2F6FE /* checkbox.png */; };
+		3BBF9CFF17E7FFCD00D2F6FE /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CEB17E7FFCD00D2F6FE /* creme_brelee.jpg */; };
+		3BBF9D0117E7FFCD00D2F6FE /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CED17E7FFCD00D2F6FE /* egg_benedict.jpg */; };
+		3BBF9D0217E7FFCD00D2F6FE /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CEE17E7FFCD00D2F6FE /* full_breakfast.jpg */; };
+		3BBF9D0317E7FFCD00D2F6FE /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CEF17E7FFCD00D2F6FE /* green_tea.jpg */; };
+		3BBF9D0417E7FFCD00D2F6FE /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF017E7FFCD00D2F6FE /* ham_and_cheese_panini.jpg */; };
+		3BBF9D0517E7FFCD00D2F6FE /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF117E7FFCD00D2F6FE /* ham_and_egg_sandwich.jpg */; };
+		3BBF9D0617E7FFCD00D2F6FE /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF217E7FFCD00D2F6FE /* hamburger.jpg */; };
+		3BBF9D0717E7FFCD00D2F6FE /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF317E7FFCD00D2F6FE /* instant_noodle_with_egg.jpg */; };
+		3BBF9D0817E7FFCD00D2F6FE /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF417E7FFCD00D2F6FE /* japanese_noodle_with_pork.jpg */; };
+		3BBF9D0917E7FFCD00D2F6FE /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF517E7FFCD00D2F6FE /* mushroom_risotto.jpg */; };
+		3BBF9D0A17E7FFCD00D2F6FE /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF617E7FFCD00D2F6FE /* noodle_with_bbq_pork.jpg */; };
+		3BBF9D0B17E7FFCD00D2F6FE /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF717E7FFCD00D2F6FE /* starbucks_coffee.jpg */; };
+		3BBF9D0C17E7FFCD00D2F6FE /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF817E7FFCD00D2F6FE /* thai_shrimp_cake.jpg */; };
+		3BBF9D0D17E7FFCD00D2F6FE /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF917E7FFCD00D2F6FE /* vegetable_curry.jpg */; };
+		3BBF9D0E17E7FFCD00D2F6FE /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CFA17E7FFCD00D2F6FE /* white_chocolate_donut.jpg */; };
+		3BBF9D1017E8046D00D2F6FE /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9D0F17E8046D00D2F6FE /* recipes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,21 +57,46 @@
 		3BBF9C7017E4D19800D2F6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BBF9C7217E4D19800D2F6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BBF9C7417E4D19800D2F6FE /* CheckBoxWidget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckBoxWidget-Prefix.pch"; sourceTree = "<group>"; };
-		3BBF9C7517E4D19800D2F6FE /* EWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWAppDelegate.h; sourceTree = "<group>"; };
-		3BBF9C7617E4D19800D2F6FE /* EWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAppDelegate.m; sourceTree = "<group>"; };
+		3BBF9C7517E4D19800D2F6FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BBF9C7617E4D19800D2F6FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BBF9C7817E4D19800D2F6FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3BBF9C7A17E4D19800D2F6FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3BBF9C7C17E4D19800D2F6FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3BBF9C7F17E4D19800D2F6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3BBF9C8217E4D19800D2F6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3BBF9C8417E4D19800D2F6FE /* EWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWViewController.h; sourceTree = "<group>"; };
-		3BBF9C8517E4D19800D2F6FE /* EWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWViewController.m; sourceTree = "<group>"; };
-		3BBF9C9717E4D49300D2F6FE /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
-		3BBF9C9817E4D49300D2F6FE /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
-		3BBF9C9917E4D49300D2F6FE /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		3BBF9C8417E4D19800D2F6FE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		3BBF9C8517E4D19800D2F6FE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		3BBF9C9F17E4F92300D2F6FE /* CheckBoxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxButton.h; sourceTree = "<group>"; };
 		3BBF9CA017E4F92300D2F6FE /* CheckBoxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxButton.m; sourceTree = "<group>"; };
 		3BBF9CA217E4F94400D2F6FE /* CheckBoxButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxButton.xib; sourceTree = "<group>"; };
+		3BBF9CD517E77E2300D2F6FE /* TableViewSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewSummaryCell.xib; sourceTree = "<group>"; };
+		3BBF9CD717E77F0700D2F6FE /* TableViewResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewResultCell.xib; sourceTree = "<group>"; };
+		3BBF9CDA17E7896F00D2F6FE /* TableViewSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSummaryCell.h; sourceTree = "<group>"; };
+		3BBF9CDB17E7896F00D2F6FE /* TableViewSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSummaryCell.m; sourceTree = "<group>"; };
+		3BBF9CDD17E7898D00D2F6FE /* TableViewResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewResultCell.h; sourceTree = "<group>"; };
+		3BBF9CDE17E7898D00D2F6FE /* TableViewResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewResultCell.m; sourceTree = "<group>"; };
+		3BBF9CE017E78D3200D2F6FE /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3BBF9CE117E78D3200D2F6FE /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3BBF9CE717E7FFCD00D2F6FE /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		3BBF9CE817E7FFCD00D2F6FE /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		3BBF9CE917E7FFCD00D2F6FE /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
+		3BBF9CEA17E7FFCD00D2F6FE /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		3BBF9CEB17E7FFCD00D2F6FE /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		3BBF9CED17E7FFCD00D2F6FE /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		3BBF9CEE17E7FFCD00D2F6FE /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		3BBF9CEF17E7FFCD00D2F6FE /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		3BBF9CF017E7FFCD00D2F6FE /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		3BBF9CF117E7FFCD00D2F6FE /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		3BBF9CF217E7FFCD00D2F6FE /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		3BBF9CF317E7FFCD00D2F6FE /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		3BBF9CF417E7FFCD00D2F6FE /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		3BBF9CF517E7FFCD00D2F6FE /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		3BBF9CF617E7FFCD00D2F6FE /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		3BBF9CF717E7FFCD00D2F6FE /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		3BBF9CF817E7FFCD00D2F6FE /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		3BBF9CF917E7FFCD00D2F6FE /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		3BBF9CFA17E7FFCD00D2F6FE /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		3BBF9D0F17E8046D00D2F6FE /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,13 +143,13 @@
 		3BBF9C6C17E4D19800D2F6FE /* CheckBoxWidget */ = {
 			isa = PBXGroup;
 			children = (
+				3BBF9CE617E7FFCD00D2F6FE /* Resources */,
+				3BBF9CD917E7816100D2F6FE /* Controllers */,
 				3BBF9C9017E4D27200D2F6FE /* Views */,
-				3BBF9C7517E4D19800D2F6FE /* EWAppDelegate.h */,
-				3BBF9C7617E4D19800D2F6FE /* EWAppDelegate.m */,
+				3BBF9C7517E4D19800D2F6FE /* AppDelegate.h */,
+				3BBF9C7617E4D19800D2F6FE /* AppDelegate.m */,
 				3BBF9C7E17E4D19800D2F6FE /* MainStoryboard_iPhone.storyboard */,
 				3BBF9C8117E4D19800D2F6FE /* MainStoryboard_iPad.storyboard */,
-				3BBF9C8417E4D19800D2F6FE /* EWViewController.h */,
-				3BBF9C8517E4D19800D2F6FE /* EWViewController.m */,
 				3BBF9C6D17E4D19800D2F6FE /* Supporting Files */,
 			);
 			path = CheckBoxWidget;
@@ -125,6 +172,7 @@
 		3BBF9C9017E4D27200D2F6FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3BBF9CD417E77C7200D2F6FE /* TableViewCells */,
 				3BBF9C9117E4D28F00D2F6FE /* CheckBox */,
 			);
 			path = Views;
@@ -133,14 +181,62 @@
 		3BBF9C9117E4D28F00D2F6FE /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
-				3BBF9C9717E4D49300D2F6FE /* checkbox-checked.png */,
-				3BBF9C9817E4D49300D2F6FE /* checkbox-pressed.png */,
-				3BBF9C9917E4D49300D2F6FE /* checkbox.png */,
 				3BBF9C9F17E4F92300D2F6FE /* CheckBoxButton.h */,
 				3BBF9CA017E4F92300D2F6FE /* CheckBoxButton.m */,
 				3BBF9CA217E4F94400D2F6FE /* CheckBoxButton.xib */,
 			);
 			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		3BBF9CD417E77C7200D2F6FE /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF9CD517E77E2300D2F6FE /* TableViewSummaryCell.xib */,
+				3BBF9CD717E77F0700D2F6FE /* TableViewResultCell.xib */,
+				3BBF9CDA17E7896F00D2F6FE /* TableViewSummaryCell.h */,
+				3BBF9CDB17E7896F00D2F6FE /* TableViewSummaryCell.m */,
+				3BBF9CDD17E7898D00D2F6FE /* TableViewResultCell.h */,
+				3BBF9CDE17E7898D00D2F6FE /* TableViewResultCell.m */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		3BBF9CD917E7816100D2F6FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF9C8417E4D19800D2F6FE /* MainViewController.h */,
+				3BBF9C8517E4D19800D2F6FE /* MainViewController.m */,
+				3BBF9CE017E78D3200D2F6FE /* SearchViewController.h */,
+				3BBF9CE117E78D3200D2F6FE /* SearchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BBF9CE617E7FFCD00D2F6FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF9D0F17E8046D00D2F6FE /* recipes.plist */,
+				3BBF9CE717E7FFCD00D2F6FE /* angry_birds_cake.jpg */,
+				3BBF9CE817E7FFCD00D2F6FE /* checkbox-checked.png */,
+				3BBF9CE917E7FFCD00D2F6FE /* checkbox-pressed.png */,
+				3BBF9CEA17E7FFCD00D2F6FE /* checkbox.png */,
+				3BBF9CEB17E7FFCD00D2F6FE /* creme_brelee.jpg */,
+				3BBF9CED17E7FFCD00D2F6FE /* egg_benedict.jpg */,
+				3BBF9CEE17E7FFCD00D2F6FE /* full_breakfast.jpg */,
+				3BBF9CEF17E7FFCD00D2F6FE /* green_tea.jpg */,
+				3BBF9CF017E7FFCD00D2F6FE /* ham_and_cheese_panini.jpg */,
+				3BBF9CF117E7FFCD00D2F6FE /* ham_and_egg_sandwich.jpg */,
+				3BBF9CF217E7FFCD00D2F6FE /* hamburger.jpg */,
+				3BBF9CF317E7FFCD00D2F6FE /* instant_noodle_with_egg.jpg */,
+				3BBF9CF417E7FFCD00D2F6FE /* japanese_noodle_with_pork.jpg */,
+				3BBF9CF517E7FFCD00D2F6FE /* mushroom_risotto.jpg */,
+				3BBF9CF617E7FFCD00D2F6FE /* noodle_with_bbq_pork.jpg */,
+				3BBF9CF717E7FFCD00D2F6FE /* starbucks_coffee.jpg */,
+				3BBF9CF817E7FFCD00D2F6FE /* thai_shrimp_cake.jpg */,
+				3BBF9CF917E7FFCD00D2F6FE /* vegetable_curry.jpg */,
+				3BBF9CFA17E7FFCD00D2F6FE /* white_chocolate_donut.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,10 +297,29 @@
 				3BBF9C7D17E4D19800D2F6FE /* Default-568h@2x.png in Resources */,
 				3BBF9C8017E4D19800D2F6FE /* MainStoryboard_iPhone.storyboard in Resources */,
 				3BBF9C8317E4D19800D2F6FE /* MainStoryboard_iPad.storyboard in Resources */,
-				3BBF9C9A17E4D49300D2F6FE /* checkbox-checked.png in Resources */,
-				3BBF9C9B17E4D49300D2F6FE /* checkbox-pressed.png in Resources */,
-				3BBF9C9C17E4D49300D2F6FE /* checkbox.png in Resources */,
 				3BBF9CA317E4F94400D2F6FE /* CheckBoxButton.xib in Resources */,
+				3BBF9CD617E77E2300D2F6FE /* TableViewSummaryCell.xib in Resources */,
+				3BBF9CD817E77F0700D2F6FE /* TableViewResultCell.xib in Resources */,
+				3BBF9CFB17E7FFCD00D2F6FE /* angry_birds_cake.jpg in Resources */,
+				3BBF9CFC17E7FFCD00D2F6FE /* checkbox-checked.png in Resources */,
+				3BBF9CFD17E7FFCD00D2F6FE /* checkbox-pressed.png in Resources */,
+				3BBF9CFE17E7FFCD00D2F6FE /* checkbox.png in Resources */,
+				3BBF9CFF17E7FFCD00D2F6FE /* creme_brelee.jpg in Resources */,
+				3BBF9D0117E7FFCD00D2F6FE /* egg_benedict.jpg in Resources */,
+				3BBF9D0217E7FFCD00D2F6FE /* full_breakfast.jpg in Resources */,
+				3BBF9D0317E7FFCD00D2F6FE /* green_tea.jpg in Resources */,
+				3BBF9D0417E7FFCD00D2F6FE /* ham_and_cheese_panini.jpg in Resources */,
+				3BBF9D0517E7FFCD00D2F6FE /* ham_and_egg_sandwich.jpg in Resources */,
+				3BBF9D0617E7FFCD00D2F6FE /* hamburger.jpg in Resources */,
+				3BBF9D0717E7FFCD00D2F6FE /* instant_noodle_with_egg.jpg in Resources */,
+				3BBF9D0817E7FFCD00D2F6FE /* japanese_noodle_with_pork.jpg in Resources */,
+				3BBF9D0917E7FFCD00D2F6FE /* mushroom_risotto.jpg in Resources */,
+				3BBF9D0A17E7FFCD00D2F6FE /* noodle_with_bbq_pork.jpg in Resources */,
+				3BBF9D0B17E7FFCD00D2F6FE /* starbucks_coffee.jpg in Resources */,
+				3BBF9D0C17E7FFCD00D2F6FE /* thai_shrimp_cake.jpg in Resources */,
+				3BBF9D0D17E7FFCD00D2F6FE /* vegetable_curry.jpg in Resources */,
+				3BBF9D0E17E7FFCD00D2F6FE /* white_chocolate_donut.jpg in Resources */,
+				3BBF9D1017E8046D00D2F6FE /* recipes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +331,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBF9C7317E4D19800D2F6FE /* main.m in Sources */,
-				3BBF9C7717E4D19800D2F6FE /* EWAppDelegate.m in Sources */,
-				3BBF9C8617E4D19800D2F6FE /* EWViewController.m in Sources */,
+				3BBF9C7717E4D19800D2F6FE /* AppDelegate.m in Sources */,
+				3BBF9C8617E4D19800D2F6FE /* MainViewController.m in Sources */,
 				3BBF9CA117E4F92300D2F6FE /* CheckBoxButton.m in Sources */,
+				3BBF9CDC17E7896F00D2F6FE /* TableViewSummaryCell.m in Sources */,
+				3BBF9CDF17E7898D00D2F6FE /* TableViewResultCell.m in Sources */,
+				3BBF9CE217E78D3200D2F6FE /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +469,7 @@
 				3BBF9C8B17E4D19800D2F6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,10 +6,11 @@
 //  Copyright (c) 2013 twright. All rights reserved.
 //
 
-#import "EWViewController.h"
+#import "MainViewController.h"
+#import "SearchViewController.h"
 
 
-@implementation EWViewController
+@implementation MainViewController
 
 @synthesize checkBoxButtonCollection;
 
@@ -19,7 +20,6 @@
     [super viewDidLoad];
     self.checkBoxAllButton.delegate = self;
     self.checkBoxAllButton.editable = YES;
-#warning Use tags instead of "key" for buttons
     int counter = 1;
     for (CheckBoxButton *checkBoxButton in checkBoxButtonCollection) {
         checkBoxButton.delegate = self;
@@ -33,23 +33,22 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"Search1"]) {
+        SearchViewController *searchVC = segue.destinationViewController;
+        searchVC.barTitle = [[NSString alloc] initWithFormat:@"Search 1"];
+    }
+    else if ([[segue identifier] isEqualToString:@"Search2"]) {
+        SearchViewController *searchVC = segue.destinationViewController;
+        searchVC.barTitle = [[NSString alloc] initWithFormat:@"Search 2"];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)checkBoxButtonAll:(id)sender
-{
-    NSNumber *result = [NSNumber numberWithBool:self.checkBoxAllButton.selected];
-    [checkBoxButtonCollection setValue: result forKey: @"selected"];
-}
-
-- (IBAction)checkBoxButtons:(id)sender
-{
-    for (CheckBoxButton *checkBoxButton in checkBoxButtonCollection) {
-        self.checkBoxAllButton.selected = checkBoxButton.selected;
-    }
 }
 
 - (void)checkBoxButton:(CheckBoxButton *)checkBoxButton checkBoxButtonDidChange:(BOOL)checkBoxSelected
