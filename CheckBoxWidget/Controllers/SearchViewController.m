@@ -163,6 +163,13 @@
     self.prepTimeSearchResults = [[NSMutableArray alloc]init];
     [self.prepTimeSearchResults addObject:@"placeholder"];
 
+    
+    TableViewSummaryCell *summaryCell = (TableViewSummaryCell *)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+    if (summaryCell)
+    {
+        [summaryCell.checkBoxButton setCheckBoxSelection:NO];
+    }
+    
     int count = 0;
     NSString *searchText = self.searchBar.text;
     for (NSString *recipe in tableData) {

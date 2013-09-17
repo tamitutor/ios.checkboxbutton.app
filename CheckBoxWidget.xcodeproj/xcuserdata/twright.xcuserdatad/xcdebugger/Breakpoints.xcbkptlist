@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CheckBoxWidget/Controllers/SearchViewController.m"
-         timestampString = "401093708.526842"
+         timestampString = "401094881.750157"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "175"
-         endingLineNumber = "175"
+         startingLineNumber = "182"
+         endingLineNumber = "182"
          landmarkName = "-searchBarSearchButtonClicked:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CheckBoxWidget/Controllers/SearchViewController.m"
-         timestampString = "401093869.334548"
+         timestampString = "401094881.750157"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "192"
-         endingLineNumber = "192"
+         startingLineNumber = "199"
+         endingLineNumber = "199"
          landmarkName = "-checkBoxButton:checkBoxButtonDidChange:"
          landmarkType = "5">
       </FileBreakpoint>
