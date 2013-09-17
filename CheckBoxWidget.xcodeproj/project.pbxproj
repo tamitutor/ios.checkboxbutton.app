@@ -46,6 +46,7 @@
 		3BBF9D0D17E7FFCD00D2F6FE /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CF917E7FFCD00D2F6FE /* vegetable_curry.jpg */; };
 		3BBF9D0E17E7FFCD00D2F6FE /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9CFA17E7FFCD00D2F6FE /* white_chocolate_donut.jpg */; };
 		3BBF9D1017E8046D00D2F6FE /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF9D0F17E8046D00D2F6FE /* recipes.plist */; };
+		3BBF9D1317E899F800D2F6FE /* ButtonCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF9D1217E899F800D2F6FE /* ButtonCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		3BBF9CF917E7FFCD00D2F6FE /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		3BBF9CFA17E7FFCD00D2F6FE /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
 		3BBF9D0F17E8046D00D2F6FE /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		3BBF9D1117E899F800D2F6FE /* ButtonCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCollectionViewController.h; sourceTree = "<group>"; };
+		3BBF9D1217E899F800D2F6FE /* ButtonCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,8 @@
 				3BBF9C8517E4D19800D2F6FE /* MainViewController.m */,
 				3BBF9CE017E78D3200D2F6FE /* SearchViewController.h */,
 				3BBF9CE117E78D3200D2F6FE /* SearchViewController.m */,
+				3BBF9D1117E899F800D2F6FE /* ButtonCollectionViewController.h */,
+				3BBF9D1217E899F800D2F6FE /* ButtonCollectionViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				3BBF9CDC17E7896F00D2F6FE /* TableViewSummaryCell.m in Sources */,
 				3BBF9CDF17E7898D00D2F6FE /* TableViewResultCell.m in Sources */,
 				3BBF9CE217E78D3200D2F6FE /* SearchViewController.m in Sources */,
+				3BBF9D1317E899F800D2F6FE /* ButtonCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

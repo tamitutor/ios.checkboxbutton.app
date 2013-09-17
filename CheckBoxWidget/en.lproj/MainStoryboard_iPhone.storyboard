@@ -12,9 +12,80 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDk-YN-uOa">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Search 1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3zw-G8-HS9" kind="push" identifier="Search1" id="w2N-oY-xV8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bm-CQ-CqP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="3Uq-Fh-emm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Search 2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3zw-G8-HS9" kind="push" identifier="Search2" id="ESg-fD-0CO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbJ-Rh-IEz">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="8UC-9W-oz6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button Collection">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Zbv-Sr-DUS" kind="push" id="Ueh-Mf-Sca"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xDk-YN-uOa" firstAttribute="top" secondItem="3" secondAttribute="top" constant="107" id="0ok-6l-4Te"/>
+                            <constraint firstItem="xDk-YN-uOa" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="122" id="N4s-r4-1EX"/>
+                            <constraint firstItem="0Bm-CQ-CqP" firstAttribute="leading" secondItem="xDk-YN-uOa" secondAttribute="leading" type="default" id="RuR-Cf-dzM"/>
+                            <constraint firstItem="jbJ-Rh-IEz" firstAttribute="top" secondItem="3" secondAttribute="top" constant="247" id="irb-t9-pN9"/>
+                            <constraint firstItem="0Bm-CQ-CqP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="176" id="oKw-pb-Gqx"/>
+                            <constraint firstAttribute="centerX" secondItem="jbJ-Rh-IEz" secondAttribute="centerX" type="user" id="pdK-XY-dgn"/>
+                            <constraint firstItem="0Bm-CQ-CqP" firstAttribute="centerX" secondItem="xDk-YN-uOa" secondAttribute="centerX" type="default" id="wfj-lb-kcp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fHO-Qp-heb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="30"/>
+        </scene>
+        <!--Button Collection View Controller-->
+        <scene sceneID="EPM-UI-B6E">
+            <objects>
+                <viewController id="Zbv-Sr-DUS" customClass="ButtonCollectionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ea0-KE-41n">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6v-oT-EVs">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="209" id="mrz-FB-hgA"/>
+                                    <constraint firstAttribute="width" constant="315" id="VMf-1b-aU4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -22,8 +93,8 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCk-1T-gRw" customClass="CheckBoxButton">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="44" id="RIl-QK-mim"/>
-                                    <constraint firstAttribute="height" constant="40" id="mRg-zA-xVF"/>
+                                    <constraint firstAttribute="height" constant="30" id="h9z-ve-stk"/>
+                                    <constraint firstAttribute="width" constant="30" id="sAI-c1-B50"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
@@ -36,8 +107,8 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU9-l9-YzF" customClass="CheckBoxButton">
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9Ah-sg-pPv"/>
                                     <constraint firstAttribute="width" constant="30" id="Zxo-mW-qUA"/>
-                                    <constraint firstAttribute="height" constant="30" id="zhl-h1-V38"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal">
@@ -69,67 +140,33 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDk-YN-uOa">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="qlj-xm-sIU"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Search 1">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="3zw-G8-HS9" kind="push" identifier="Search1" id="w2N-oY-xV8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bm-CQ-CqP">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Search 2">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="3zw-G8-HS9" kind="push" identifier="Search2" id="ESg-fD-0CO"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="xDk-YN-uOa" secondAttribute="bottom" constant="98" id="ErD-uv-V6x"/>
-                            <constraint firstAttribute="centerX" secondItem="nVy-jd-uEW" secondAttribute="centerX" type="user" id="Go8-g2-jsv"/>
-                            <constraint firstItem="0Bm-CQ-CqP" firstAttribute="leading" secondItem="xDk-YN-uOa" secondAttribute="leading" type="default" id="RuR-Cf-dzM"/>
-                            <constraint firstAttribute="centerX" secondItem="0Bm-CQ-CqP" secondAttribute="centerX" type="user" id="S35-zH-8zX"/>
-                            <constraint firstAttribute="bottom" secondItem="k6v-oT-EVs" secondAttribute="bottom" constant="225" id="Xos-zt-wEQ"/>
-                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="97" id="ZEp-jr-8JC"/>
-                            <constraint firstItem="nVy-jd-uEW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="191" id="c0v-mv-RH4"/>
-                            <constraint firstItem="qCk-1T-gRw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="101" id="hDg-d6-7Lh"/>
-                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="151" id="kKi-a0-Bvk"/>
-                            <constraint firstItem="qCk-1T-gRw" firstAttribute="top" secondItem="3" secondAttribute="top" constant="90" id="kzP-lR-0Rv"/>
-                            <constraint firstAttribute="bottom" secondItem="0Bm-CQ-CqP" secondAttribute="bottom" constant="29" id="moY-tG-e0i"/>
-                            <constraint firstItem="nVy-jd-uEW" firstAttribute="leading" secondItem="eU9-l9-YzF" secondAttribute="leading" type="user" id="raa-dk-o8L"/>
-                            <constraint firstAttribute="centerX" secondItem="xDk-YN-uOa" secondAttribute="centerX" type="user" id="trJ-Zj-d5C"/>
-                            <constraint firstAttribute="centerX" secondItem="k6v-oT-EVs" secondAttribute="centerX" type="user" id="uhQ-V5-4Pd"/>
-                            <constraint firstAttribute="centerX" secondItem="eU9-l9-YzF" secondAttribute="centerX" type="user" id="wfT-FU-4L6"/>
-                            <constraint firstItem="eU9-l9-YzF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="140" id="wp0-hQ-2zG"/>
+                            <constraint firstAttribute="centerX" secondItem="k6v-oT-EVs" secondAttribute="centerX" type="user" id="A7A-GF-RKc"/>
+                            <constraint firstItem="nVy-jd-uEW" firstAttribute="top" secondItem="ea0-KE-41n" secondAttribute="top" constant="191" id="Av7-Ih-evv"/>
+                            <constraint firstItem="eU9-l9-YzF" firstAttribute="top" secondItem="ea0-KE-41n" secondAttribute="top" constant="165" id="GhO-eP-qv2"/>
+                            <constraint firstItem="qCk-1T-gRw" firstAttribute="leading" secondItem="ea0-KE-41n" secondAttribute="leading" constant="90" id="OVA-1g-l9R"/>
+                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="leading" secondItem="ea0-KE-41n" secondAttribute="leading" constant="124" id="Rwt-PU-QcJ"/>
+                            <constraint firstAttribute="centerX" secondItem="nVy-jd-uEW" secondAttribute="centerX" type="user" id="WyV-ql-ziG"/>
+                            <constraint firstAttribute="bottom" secondItem="k6v-oT-EVs" secondAttribute="bottom" constant="163" id="ax1-F9-1ND"/>
+                            <constraint firstItem="1Mb-3E-CVZ" firstAttribute="top" secondItem="ea0-KE-41n" secondAttribute="top" constant="137" id="ibr-M5-Q9a"/>
+                            <constraint firstItem="qCk-1T-gRw" firstAttribute="top" secondItem="ea0-KE-41n" secondAttribute="top" constant="134" id="lmK-I6-tGw"/>
+                            <constraint firstItem="nVy-jd-uEW" firstAttribute="leading" secondItem="eU9-l9-YzF" secondAttribute="leading" type="default" id="odb-mP-ttK"/>
+                            <constraint firstAttribute="centerX" secondItem="eU9-l9-YzF" secondAttribute="centerX" type="user" id="xln-2l-Y1o"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fHO-Qp-heb"/>
+                    <navigationItem key="navigationItem" id="Sft-is-qdk"/>
                     <connections>
-                        <outlet property="checkBoxAllButton" destination="qCk-1T-gRw" id="2r8-bf-How"/>
-                        <outlet property="checkBoxStatusLabel" destination="k6v-oT-EVs" id="H33-je-neW"/>
-                        <outletCollection property="checkBoxButtonCollection" destination="eU9-l9-YzF" id="FCh-xx-Pem"/>
-                        <outletCollection property="checkBoxButtonCollection" destination="nVy-jd-uEW" id="PNk-gI-kaI"/>
+                        <outlet property="checkBoxAllButton" destination="qCk-1T-gRw" id="x0Q-zh-xwh"/>
+                        <outlet property="checkBoxStatusLabel" destination="k6v-oT-EVs" id="Yha-u4-oiZ"/>
+                        <outletCollection property="checkBoxButtonCollection" destination="eU9-l9-YzF" id="gou-cq-FSw"/>
+                        <outletCollection property="checkBoxButtonCollection" destination="nVy-jd-uEW" id="bm8-Xh-Gwb"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1S-bv-QIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="589" y="30"/>
+            <point key="canvasLocation" x="167" y="720"/>
         </scene>
         <!--Search View Controller - Search-->
         <scene sceneID="i3a-0y-kKf">
@@ -163,7 +200,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Na-v8-f2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="29"/>
+            <point key="canvasLocation" x="581" y="719"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uxh-3l-v1Y">
@@ -185,6 +222,14 @@
         </scene>
     </scenes>
     <classes>
+        <class className="ButtonCollectionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ButtonCollectionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="checkBoxAllButton" candidateClass="CheckBoxButton"/>
+                <relationship kind="outlet" name="checkBoxStatusLabel" candidateClass="UILabel"/>
+                <relationship kind="outletCollection" name="checkBoxButtonCollection" candidateClass="CheckBoxButton"/>
+            </relationships>
+        </class>
         <class className="CheckBoxButton" superclassName="UIButton">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CheckBoxButton.h"/>
             <relationships>
@@ -194,13 +239,6 @@
         </class>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="checkBoxButtonAll:"/>
-                <relationship kind="action" name="checkBoxButtons:"/>
-                <relationship kind="outlet" name="checkBoxAllButton" candidateClass="CheckBoxButton"/>
-                <relationship kind="outlet" name="checkBoxStatusLabel" candidateClass="UILabel"/>
-                <relationship kind="outletCollection" name="checkBoxButtonCollection" candidateClass="CheckBoxButton"/>
-            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
