@@ -273,6 +273,11 @@
 				CLASSPREFIX = EW;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = twright;
+				TargetAttributes = {
+					3BBF9C6217E4D19800D2F6FE = {
+						DevelopmentTeam = J56BEKJA4Y;
+					};
+				};
 			};
 			buildConfigurationList = 3BBF9C5E17E4D19800D2F6FE /* Build configuration list for PBXProject "CheckBoxWidget" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -437,10 +442,13 @@
 		3BBF9C8A17E4D19800D2F6FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheckBoxWidget/CheckBoxWidget-Prefix.pch";
 				INFOPLIST_FILE = "CheckBoxWidget/CheckBoxWidget-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -448,10 +456,13 @@
 		3BBF9C8B17E4D19800D2F6FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheckBoxWidget/CheckBoxWidget-Prefix.pch";
 				INFOPLIST_FILE = "CheckBoxWidget/CheckBoxWidget-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
